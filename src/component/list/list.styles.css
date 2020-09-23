@@ -1,0 +1,48 @@
+input {
+  margin: 0.4rem;
+  width: 100px;
+  color: black;
+}
+p {
+  font-size: 1.4rem;
+}
+blockquote {
+  background: #fff;
+  border: 2px solid #d3d3d3;
+  border-radius: 10px;
+  padding: 1rem 2rem;
+  margin-bottom: 15px;
+  margin: 10px 50px;
+}
+blockquote img {
+  width: 12rem;
+  margin-right: 5px;
+}
+footer {
+  text-align: right;
+  padding: 0.5rem 2rem;
+}
+.btn {
+  background: transparent;
+  border: none;
+  outline: 0;
+  width: 50%;
+  padding: 1rem 1rem;
+  cursor: pointer;
+}
+.button {
+  margin-top: 2rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.btn-approve {
+  background-color: #6effa6;
+}
+
+.btn-cancel {
+  background: #f64545;
+}
+.approve {
+  background: seagreen;
+}

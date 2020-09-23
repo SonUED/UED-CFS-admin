@@ -1,0 +1,42 @@
+.preview {
+  width: 50%;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
+
+.preview-header {
+  height: 5rem;
+  background: #dfdede;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 1.4rem;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.upload {
+  display: none;
+  position: relative;
+  white-space: wrap;
+  background: white;
+}
+.active {
+  display: block;
+  color: black;
+}
+.content {
+  display: inline-block;
+  padding: 1rem 1rem;
+  font-size: 1.4rem;
+}
+.btn-submit {
+  position: relative;
+  bottom: 0;
+  outline: none;
+  border: none;
+  padding: 1rem 1rem;
+  width: 100%;
+  background: #dfdede;
+  cursor: pointer;
+}
